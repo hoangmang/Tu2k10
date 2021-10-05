@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(163, 114, 209);
+}
+.o1,
+.o3,
+.o4 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: #ffffff solid 2px;
+}
+.o2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px 10px 10px 10px;
+  border: #ffffff solid 2px;
+}
+p:hover {
+  color: rgb(81, 81, 235);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.a3:hover {
+  opacity: 1;
+  border: black solid 3px;
+}
+img:hover {
+  opacity: 1;
+  border: black solid 3px;
+  margin-top: 3%;
+}
+h3:hover {
+  color: rgb(24, 216, 241);
+}
+h2:hover {
+  color: rgb(202, 46, 189);
+}
+a:hover {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(245, 0, 192);
+}
+h2,
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.a2 {
+  width: 50%;
+  margin-left: 25%;
+  background-image: url(https://1.bp.blogspot.com/-61RzUYAAZBk/XpiFcSK7WvI/AAAAAAAAgdY/fO8DawzaJg4JUrJxZ129mVKpKySNq0z-wCLcBGAsYHQ/s1600/Hinh-Nen-Son-Goku-Dep-Nhat%2B%25287%2529.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 100%;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  height: 700px;
+}
+.a3 {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: white solid 4px;
+  margin-top: 10px;
+}
+.d1 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  float: left;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 46.1875em) {
+  .a2 {
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    height: 700px;
+  }
+  button {
+    margin-top: 100px;
+    float: left;
+  }
+  a {
+    font-size: 15px;
+    float: left;
+    margin-left: 80px;
+  }
+  .a3 {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  .o1,
+  .o2,
+  .o3,
+  .o4 {
+    width: 30px;
+    height: 30px;
+  }
+}
